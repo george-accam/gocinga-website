@@ -30,7 +30,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="flex justify-center sm:justify-start">
-          <form className="flex space-x-2 mt-5">
+          <form className="flex space-x-2 mt-4">
             <input
               type="email"
               placeholder="Subscribe"
@@ -46,7 +46,7 @@ const Footer = () => {
           </form>
         </div>
       </div>
-      <p className="text-center   my-4">
+      <p className="text-center   my-1">
         © 2024 Gocinga NGO. All rights reserved.
       </p>
     </footer>
