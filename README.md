@@ -1,8 +1,29 @@
-# React + Vite
+# NGO Donation Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a website for GOCINGA, designed to make it easier for people to donate to our causes. The website provides users with a simple form to donate, view our social media, and sign up for our newsletter. 
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Donation Form**: Allows users to enter their name, email, and donation amount, and submit donations.
+- **Newsletter Signup**: Users can subscribe to receive updates.
+- **Responsive Design**: Works on both mobile and desktop devices.
+
+## Setup Instructions
+
+To run this project locally, follow these steps:
+
+### Prerequisites
+
+- Node.js (Download it from [here](https://nodejs.org))
+- npm (included with Node.js) or Yarn
+
+### Installation Steps
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/george-accam/gocinga-website.git
+   
+2. cd gocinga-website
+
+3. npm install
+4. npm start
