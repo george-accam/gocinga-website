@@ -46,7 +46,7 @@ const Footer = () => {
           </form>
         </div>
       </div>
-      <p className="text-center   my-1">
+      <p className="text-center   my-4">
         © 2024 Gocinga NGO. All rights reserved.
       </p>
     </footer>
