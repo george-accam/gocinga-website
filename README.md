@@ -22,6 +22,8 @@ To run this project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/george-accam/gocinga-website.git
+   
 2. cd gocinga-website
+
 3. npm install
-4.npm start
+4. npm start
