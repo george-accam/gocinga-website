@@ -116,7 +116,7 @@ const HomePage = () => {
                 </div>
               </div>
 
-              <div className="h-16 w-64 mt-5 bg-slate-800 shadow-xl rounded-3xl z-10">
+              <div className="h-16 md:w-64 mt-5 bg-slate-800 shadow-xl rounded-3xl z-10">
                 <h2 className="text-center text-xl text-slate-50 pt-5">
                   Your home for help
                 </h2>
