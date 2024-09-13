@@ -26,7 +26,7 @@ To run this project locally, follow these steps:
 2. cd gocinga-website
 
 3. npm install
-4. npm start
+4. npm run dev
 
 ## Implementation
 - The form uses React Hooks (e.g., useState) for managing the donation form's state.
