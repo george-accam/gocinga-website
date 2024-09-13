@@ -27,3 +27,7 @@ To run this project locally, follow these steps:
 
 3. npm install
 4. npm start
+
+## Implementation
+- The form uses React Hooks (e.g., useState) for managing the donation form's state.
+- Tailwind CSS is used for responsive design and styling.
