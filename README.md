@@ -21,7 +21,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/george-accam/gocinga-website.git
+   git clone https://github.com/george-accam/gocinga-website
    
 2. cd gocinga-website
 
