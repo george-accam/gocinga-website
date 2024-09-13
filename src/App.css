@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer{
+.typewriter h1 {
+  text-align: center;
+  overflow: hidden;
+  border-right: .15em solid #fff;
+  white-space: nowrap;
+  animation: typing 6.5s infinite, blink-caret .75s infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from, to {
+    border-color: black;
+  }
+  50% {
+    border-color: #ffffff;
+  }
+}
+
+.spinner {
+   width: 11.2px;
+   height: 11.2px;
+   border-radius: 11.2px;
+   box-shadow: 28px 0px 0 0 rgba(35,35,42,0.2), 22.7px 16.5px 0 0 rgba(35,35,42,0.4), 8.68px 26.6px 0 0 rgba(35,35,42,0.6), -8.68px 26.6px 0 0 rgba(35,35,42,0.8), -22.7px 16.5px 0 0 #23232a;
+   animation: spinner-b87k6z 1.2s infinite linear;
+}
+
+@keyframes spinner-b87k6z {
+   to {
+      transform: rotate(360deg);
+   }
+}
+}
