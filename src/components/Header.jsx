@@ -5,7 +5,7 @@ import Menu from "../footersvg/menu.svg";
 
 const Header = () => {
   const [isIndicate, setIsIndicate] = useState(null);
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // State to toggle menu
 
   return (
     <>
@@ -21,6 +21,7 @@ const Header = () => {
             </Link>
           </li>
 
+          {/* The menu icon (shown on small screens) */}
           <div
             className="sm:block lg:hidden cursor-pointer"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -28,19 +29,18 @@ const Header = () => {
             <img src={Menu} className="size-9" alt="Menu" />
           </div>
 
+          {/* Navigation links (hidden on small screens) */}
           <div
-            className={`lg:block absolute lg:relative top-full left-0 w-full lg:w-auto bg-gray-800 lg:bg-transparent transition-all duration-500 ease-in-out ${
-              isMenuOpen
-                ? "opacity-100 max-h-screen pb-3"
-                : "opacity-0 max-h-0 overflow-hidden"
-            }`}
+            className={`lg:block ${
+              isMenuOpen ? "block" : "hidden"
+            } absolute lg:relative top-full left-0 w-full lg:w-auto bg-gray-800 lg:bg-transparent`}
           >
             <li className="flex flex-col lg:flex-row sm:space-x-6">
               <Link
                 to="/"
                 className={
                   isIndicate === "home"
-                    ? "bg-slate-500 mx-2 p-2 rounded-lg text-slate-100"
+                    ? "bg-slate-500 p-2 rounded-lg text-slate-100"
                     : "text-slate-100 p-2"
                 }
                 onClick={() => {
@@ -54,7 +54,7 @@ const Header = () => {
                 to="/about"
                 className={
                   isIndicate === "about"
-                    ? "bg-slate-500 mx-2 p-2 rounded-lg text-slate-100"
+                    ? "bg-slate-500 p-2 rounded-lg text-slate-100"
                     : "text-slate-100 p-2"
                 }
                 onClick={() => {
@@ -68,7 +68,7 @@ const Header = () => {
                 to="/projects"
                 className={
                   isIndicate === "projects"
-                    ? "bg-slate-500 mx-2 p-2 rounded-lg text-slate-100"
+                    ? "bg-slate-500 p-2 rounded-lg text-slate-100"
                     : "text-slate-100 p-2"
                 }
                 onClick={() => {
@@ -82,7 +82,7 @@ const Header = () => {
                 to="/contact"
                 className={
                   isIndicate === "contact"
-                    ? "bg-slate-500 mx-2 p-2 rounded-lg text-slate-100"
+                    ? "bg-slate-500 p-2 rounded-lg text-slate-100"
                     : "text-slate-100 p-2"
                 }
                 onClick={() => {
